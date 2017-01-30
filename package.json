@@ -1,0 +1,20 @@
+{
+  "author": "Sergey Bakin <redbull110@yandex.ru>",
+  "name": "mapjs",
+  "version": "0.1.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "hbs": "~4.0.1",
+    "less-middleware": "~2.2.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+}
