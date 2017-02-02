@@ -1,0 +1,11 @@
+{
+	"env": "prod",
+	"app":{
+		"host": "localhost",
+		"port": 3000,
+		"mapOpts": {
+			"center": [55.736476, 37.607638],
+			"zoom": 10
+		}
+	}
+}
