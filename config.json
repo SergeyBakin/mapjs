@@ -7,5 +7,22 @@
 			"center": [55.736476, 37.607638],
 			"zoom": 10
 		}
+	},
+	"mongo":{
+		"host":"localhost",
+		"port":27017,
+		"db":"db_name",
+		"settings": {
+			"w": 1
+		},
+		"opts": {
+			"reconnectTries": 1000,
+			"socketOptions": {
+				"autoReconnect": true
+			},
+			"poolSize": 10
+		},
+		"scfg": {"auto_reconnect": true, "poolSize": 100},
+		"ccfg": {"native_parser": true, "w": 1}
 	}
 }
